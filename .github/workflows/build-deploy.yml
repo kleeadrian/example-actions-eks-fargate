@@ -29,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AWS_REGION: eu-west-1
-      EKS_CLUSTER_NAME: fantastic-party-9999999999
+      AWS_REGION: ap-southeast-2
+      EKS_CLUSTER_NAME: EKS01
 
     steps:
     - name: Checkout
